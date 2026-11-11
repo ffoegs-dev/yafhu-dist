@@ -1,0 +1,122 @@
+DRAFT - for review before release. This text was drafted with AI
+assistance and has not been reviewed by a lawyer. Remove this paragraph
+when final.
+
+Yet Another FITS Header Updater (yafhu)
+Software License Agreement
+
+Copyright (c) 2026 Geoff Shapiro. All rights reserved.
+
+yafhu asks you to accept this agreement the first time it starts. By
+accepting it, or by installing, copying or using yafhu, you agree to
+this agreement. If you do not agree, do not install or use it.
+
+
+1. Definitions
+
+"Software" means yafhu - the programs yafhu and yafhu-cli, their
+documentation, and any updates provided by the author - excluding the
+Third-Party Components.
+
+"Third-Party Components" means the separately licensed software included
+with the Software, such as Python, Qt, PySide6, shiboken6, numpy and
+astropy. They are listed, with their licences, in the file license.txt
+that accompanies the Software.
+
+"Author" means Geoff Shapiro.
+
+
+2. Ownership
+
+The Software is licensed, not sold. The Author keeps all rights, title
+and interest in it, including all copyrights. This agreement gives you
+only the rights stated in it.
+
+
+3. Licence
+
+Subject to this agreement, the Author grants you a free of charge,
+non-exclusive, non-transferable licence to install and use the Software
+on any number of computers you own or control, for any purpose, personal
+or commercial.
+
+You may also give others complete, unmodified copies of the Software, free
+of charge, provided each copy includes this agreement (the LICENSE file)
+and license.txt, unchanged. Anyone who receives a copy receives it under
+this agreement.
+
+The files you create or change with the Software are yours. The Author
+claims no rights in them.
+
+
+4. Restrictions
+
+Except as permitted in section 5 or by applicable law, you may not:
+
+  a) distribute modified or incomplete copies of the Software, or copies
+     without this agreement and license.txt;
+  b) sell, rent, lease or sublicense the Software, or charge for copies
+     of it;
+  c) modify, adapt or translate the Software, or create derivative works
+     of it;
+  d) reverse engineer, decompile or disassemble the Software;
+  e) remove or alter any copyright or licence notice in the Software.
+
+
+5. Third-Party Components
+
+The Third-Party Components are licensed to you under their own licences,
+not under this agreement; license.txt lists them, with their licence
+texts. Nothing in this agreement limits any right those licences give
+you.
+
+In particular, Qt, PySide6 and shiboken6 are used under the GNU Lesser
+General Public License, version 3 (LGPLv3), and are included as
+separate, replaceable files. You may modify them, or replace them with
+other versions, and use them with the Software; and you may reverse
+engineer the Software to the extent necessary to debug such
+modifications. Section 4 does not apply to that. Where to obtain their
+source code is stated in license.txt.
+
+
+6. Your Data
+
+The Software changes the headers of files you choose. It keeps backup
+copies as described in its documentation, but you are responsible for
+keeping your own backups of your data.
+
+
+7. No Warranty
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.
+THE AUTHOR DOES NOT WARRANT THAT THE SOFTWARE WILL BE ERROR-FREE OR THAT
+IT WILL NOT DAMAGE OR LOSE DATA.
+
+
+8. Limitation of Liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE
+AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING
+LOSS OF DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR
+ITS USE. Some jurisdictions do not allow these limitations; in those,
+they apply to the extent permitted.
+
+
+9. Termination
+
+This agreement ends automatically if you breach it. When it ends you must
+stop using the Software and delete all copies of it. Sections 2 and 5 to
+10 survive termination.
+
+
+10. General
+
+This agreement is governed by the laws of the State of Oregon, United
+States of America, without regard to its conflict-of-law rules. If any
+part of it is held unenforceable, the rest remains in effect. It is the
+entire agreement between you and the Author about the Software.
+
+Questions about this agreement: dev@geoffs.org
