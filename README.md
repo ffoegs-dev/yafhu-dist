@@ -31,8 +31,9 @@ the folder's contents together.
   antivirus checks the new files.
 - **Linux**: `tar -xzf yafhu-<version>-linux-x86_64.tar.gz`, then run
   `yafhu` in the unpacked folder. To add it to your applications menu,
-  with its icon, run `./install-desktop-entry.sh` there (`--desktop`
-  adds a desktop icon too). Supported: Ubuntu 22.04 and later (Linux
+  with its icon, run `./install-desktop-entry.sh` there: it asks which
+  menu section (Science, Graphics, Education, Utility or Other), and
+  `--desktop` adds a desktop icon too. Supported: Ubuntu 22.04 and later (Linux
   Mint 21 and later, Pop!_OS, Zorin OS, elementary OS), Debian 12 and
   later, Fedora 36 and later, RHEL/Rocky/AlmaLinux 10, Arch, Manjaro,
   openSUSE Tumbleweed.
