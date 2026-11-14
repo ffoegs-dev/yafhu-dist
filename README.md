@@ -48,10 +48,12 @@ under the **(i)** icon → **Documentation...**
 
 ## Updates
 
-yafhu never goes online by itself. To see whether a newer version is
-out, choose **Check for Updates...** under the **(i)** icon: it asks
-this repository, shows what's new, and opens the download page. Then
-download and unpack the new version as above.
+To see whether a newer version is out, choose **Check for Updates...**
+under the **(i)** icon: it asks this repository, shows what's new, and
+opens the download page. Then download and unpack the new version as
+above. You can also have yafhu check at each start (Preferences →
+Updates) - it's off unless you turn it on, and otherwise yafhu never
+goes online by itself.
 
 ## What's new
 
