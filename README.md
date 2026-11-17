@@ -21,8 +21,11 @@ for your computer:
 | **Linux**, 64-bit PC, from 2022 or later | `yafhu-<version>-linux-x86_64.tar.gz` |
 | **macOS** 13 or later, Apple Silicon (M1 or later) | `yafhu-<version>-macos-arm64.zip` |
 
-There's nothing to install: unpack it and run yafhu from the folder. Keep
-the folder's contents together.
+There's nothing to install: unpack it and run yafhu from the `yafhu`
+folder it makes. Keep the folder's contents together. To check the
+download, compare its checksum with the release's `SHA256SUMS`
+(`sha256sum -c SHA256SUMS --ignore-missing` on Linux; `Get-FileHash` in
+PowerShell on Windows).
 
 - **Windows**: right-click the `.zip`, **Extract All**, then run
   `yafhu.exe`. Windows may say it "protected your PC" from an
@@ -49,9 +52,14 @@ under the **(i)** icon → **Documentation...**
 ## Updates
 
 To see whether a newer version is out, choose **Check for Updates...**
-under the **(i)** icon: it asks this repository, shows what's new, and
-opens the download page. Then download and unpack the new version as
-above. You can also have yafhu check at each start (Preferences →
+under the **(i)** icon: it asks this repository and shows what's new. On
+Windows and Linux, **Download and Install** installs it for you - it
+checks the download against the release's `SHA256SUMS`, restarts yafhu
+into the new version in the same folder, and keeps your previous version
+beside it (as `yafhu.previous`) until the next update. Or open the
+download page and download and unpack the new version as above - into a new place, not over your current `yafhu` folder (files
+from two versions mixed together could misbehave); then delete the old
+folder, and move the new one where the old one was if you like. You can also have yafhu check at each start (Preferences →
 Updates) - it's off unless you turn it on, and otherwise yafhu never
 goes online by itself.
 
