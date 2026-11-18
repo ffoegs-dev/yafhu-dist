@@ -70,9 +70,9 @@ Each [release](../../releases) lists its changes; in the app, **(i)** →
 
 ## License
 
-yafhu is free to use, for any purpose, and you may share complete,
-unmodified copies. It's proprietary software, © 2026 Geoff Shapiro; the
-`LICENSE` file in each download states the terms. yafhu includes other
+yafhu is freeware: free to use, for any purpose, and you may share
+complete, unmodified copies - but not open source. © 2026 Geoff Shapiro;
+the `LICENSE` file in each download states the terms. yafhu includes other
 software - among it Python, Qt and PySide6, numpy and astropy - under
 their own licenses, listed in `license.txt`.
 
@@ -80,3 +80,12 @@ their own licenses, listed in `license.txt`.
 
 Questions and problem reports: the Discord link in yafhu's **About**
 dialog (under the **(i)** icon).
+
+To report a problem, it helps to send yafhu's log, which records what it
+did: **(i)** → **Send Log...** prepares an email with the log attached,
+in your email program, for you to address and send. For more detail,
+raise the log level in **Preferences**, repeat what went wrong, then
+send the log.
+
+yafhu is free. If it's useful to you, you can support it on
+[Ko-fi](https://ko-fi.com/yafhu).
